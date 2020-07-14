@@ -1,0 +1,38 @@
+html,body
+{
+    width: 100%;
+    height: 100%;
+    font-family:  cursive;
+    background: url("header.jpg") no-repeat center center fixed;
+    background-size: cover; /*will cover entire tag */
+   
+   
+}
+h1
+{   text-transform: uppercase;
+    font-size: 2.5rem;
+    font-weight: bolder;
+    color: ivory;    
+   
+}
+.buffer
+{
+    height:9em;
+}
+.btn
+{
+    border-radius: 50px;
+    padding: 10px;
+}
+hr
+{
+    background-color:orange;
+    max-width: 65px;
+    height: 2px;
+}
+.btn:hover
+{
+    border-width: 4px;
+    border-color: rgb(67, 80, 55);
+    background-color: orange;
+}
